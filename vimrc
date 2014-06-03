@@ -229,7 +229,7 @@ let g:ctrlp_jump_to_buffer = 0
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_root_markers = ['comp-mdata.pl', '.ACME/', 'content.lst']
 let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_cache_dir = '/users/jupriest/.vim/ctrlp_cache'
+let g:ctrlp_cache_dir = '$HOME/.vim/ctrlp_cache'
 
 "-----------------"
 " PyMode settings "
