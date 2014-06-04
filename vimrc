@@ -238,6 +238,7 @@ let g:ctrlp_cache_dir = '$HOME/.vim/ctrlp_cache'
 let g:pymode = 1
 let g:pymode_folding = 0
 let g:pymode_doc = 0
+let g:pymode_trim_whitespaces = 0
 let g:pymode_lint_unmodified = 1
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe', 'pylint']
 
