@@ -131,9 +131,9 @@ set number
 " Set the colorscheme
 colorscheme luna-term
 
-" Highlight anything over 80c in red.
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%80v.\+/
+" Highlight the area after 80 chars
+let &colorcolumn=join(range(80,999),",")
+highlight ColorColumn ctermbg=233
 
 " Hide buffers when they are abandoned rather than throwing them away.
 set hidden
