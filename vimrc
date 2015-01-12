@@ -245,6 +245,9 @@ let g:pymode_doc = 0
 let g:pymode_trim_whitespaces = 0
 let g:pymode_lint_unmodified = 1
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe', 'pylint']
+let g:pymode_rope = 0
+let g:pymode_rope_completion = 0
+let g:pymode_rope_regenerate_on_write = 0
 let g:pymode_rope_lookup_project = 0
 
 " Pymode doesn't seem to pick up the VE correctly, add the path manually
