@@ -12,6 +12,12 @@ set nocompatible
 " Vundle Bundles "
 "----------------"
 set rtp+=~/.vim/bundle/Vundle.vim
+
+" Install Vundle if it does not exist.
+if !isdirectory(expand("~/.vim/bundle/Vundle.vim/.git"))
+    !git clone https://github.com/gmarik/vundle ~/.vim/bundle/Vundle.vim
+endif
+
 call vundle#begin()
 let $GIT_SSL_NO_VERIFY='true'
 Bundle 'gmarik/Vundle.vim'
