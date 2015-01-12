@@ -1,0 +1,7 @@
+# Ignore all vundle bundles except Vundle itself.
+bundle/*
+!bundle/Vundle.vim
+
+# Ignore Ctrl-P's cache dir and the session storage dir
+ctrlp_cache
+session
