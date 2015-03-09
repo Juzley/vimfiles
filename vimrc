@@ -9,6 +9,11 @@
 set nocompatible
 
 "----------------"
+" Paths          "
+"----------------"
+set rtp+=~/.vim
+
+"----------------"
 " Vundle Bundles "
 "----------------"
 set rtp+=~/.vim/bundle/Vundle.vim
