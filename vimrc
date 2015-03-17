@@ -165,6 +165,9 @@ set hidden
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
+" Set tabs to 2 spaces for ruby
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+
 "--------------------"
 " Functions/Commands "
 "--------------------"
