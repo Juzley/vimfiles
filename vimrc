@@ -32,6 +32,7 @@ Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-fugitive'
 Bundle 'sjl/gundo.vim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -165,6 +166,9 @@ set hidden
 " seem to happen.
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
+
+" Set tabs to 2 spaces for ruby
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 
 "--------------------"
 " Functions/Commands "
