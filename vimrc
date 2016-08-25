@@ -141,8 +141,9 @@ set cindent shiftwidth=4
 set tabstop=4
 set cino=(0,:0
 
-" Turn on line numbers
+" Turn on line numbers, and use relative line numbers
 set number
+set relativenumber
 
 " Set the colorscheme
 colorscheme luna-term
@@ -199,7 +200,7 @@ map <silent> <F4> :NERDTreeToggle<CR>
 set pastetoggle=<F11>
 
 " Ctrl+N toggles line numbers
-nmap <silent> <C-N> :set invnumber<CR>
+nmap <silent> <C-N> :set invnumber<CR>:set invrelativenumber<CR>
 
 " Use Ctrl+F sequences for various FuzzyFinder commands.
 " First unmap Ctrl+F (scroll forward).
